@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.21)  29 NOV 2012 01:54
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.5.21)  29 NOV 2012 07:11
 entering extended mode
  %&-line parsing enabled.
 **arevalo-francisco-2660557-1-t3.tex
@@ -52,32 +52,7 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(./arevalo-francisco-2660557-1-t3.aux
-
-LaTeX Warning: Label `tab:jugador' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-
-LaTeX Warning: Label `tab:Items' multiply defined.
-
-)
+(./arevalo-francisco-2660557-1-t3.aux)
 \openout1 = `arevalo-francisco-2660557-1-t3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
@@ -92,7 +67,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
- (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count88
 \scratchdimen=\dimen105
@@ -111,39 +87,55 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 14.
- (./arevalo-francisco-2660557-1-t3.toc)
+ (./arevalo-francisco-2660557-1-t3.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+)
 \tf@toc=\write3
 \openout3 = `arevalo-francisco-2660557-1-t3.toc'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
- [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] (./arevalo-fra
-ncisco-2660557-1-t3.aux)
+<clases.png, id=1, 511.9125pt x 417.05812pt>
+File: clases.png Graphic file (type png)
+ <use clases.png>
+<user-robot.png, id=3, 376.40625pt x 225.84375pt>
+File: user-robot.png Graphic file (type png)
+ <use user-robot.png> [1
 
-LaTeX Warning: There were multiply-defined labels.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+<item.png, id=14, 376.40625pt x 225.84375pt>
+File: item.png Graphic file (type png)
+ <use item.png> [2 <./clases.png> <./user-robot.png>] <hud.png, id=20, 376.4062
+5pt x 225.84375pt>
+File: hud.png Graphic file (type png)
+ <use hud.png>
+<item-menu.png, id=21, 376.40625pt x 225.84375pt>
+File: item-menu.png Graphic file (type png)
+ <use item-menu.png> [3 <./item.png> <./hud.png>] <main-menu.png, id=27, 376.40
+625pt x 225.84375pt>
+File: main-menu.png Graphic file (type png)
 
- ) 
+<use main-menu.png> [4 <./item-menu.png> <./main-menu.png>]
+(./arevalo-francisco-2660557-1-t3.aux) ) 
 Here is how much of TeX's memory you used:
- 1001 strings out of 495061
- 12619 string characters out of 1182621
- 70730 words of memory out of 3000000
- 4219 multiletter control sequences out of 15000+50000
- 7757 words of font info for 28 fonts, out of 3000000 for 9000
+ 1023 strings out of 495061
+ 12944 string characters out of 1182621
+ 63618 words of memory out of 3000000
+ 4235 multiletter control sequences out of 15000+50000
+ 8064 words of font info for 29 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,7n,19p,223b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmtt12.pfb>
-Output written on arevalo-francisco-2660557-1-t3.pdf (4 pages, 80931 bytes).
+ 25i,7n,19p,461b,234s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on arevalo-francisco-2660557-1-t3.pdf (4 pages, 412670 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

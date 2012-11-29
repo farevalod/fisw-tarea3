@@ -1,1 +1,8 @@
 \contentsline {section}{\numberline {1}Diagrama de clases de dise\~no}{1}
+\contentsline {section}{\numberline {2}Interaction Diagrams}{2}
+\contentsline {subsection}{\numberline {2.1}User/Robot interaction}{2}
+\contentsline {subsection}{\numberline {2.2}User/Item interaction}{3}
+\contentsline {section}{\numberline {3}User Interfaces}{3}
+\contentsline {subsection}{\numberline {3.1}Heads Up Display}{3}
+\contentsline {subsection}{\numberline {3.2}Item Menu}{4}
+\contentsline {subsection}{\numberline {3.3}Main Menu}{4}

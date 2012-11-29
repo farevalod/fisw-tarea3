@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Class diagram}{2}{0}{1}
+\beamer@sectionintoc {2}{Interaction Diagrams}{3}{0}{2}
+\beamer@subsectionintoc {2}{1}{User/Robot interaction}{3}{0}{2}
+\beamer@subsectionintoc {2}{2}{User/Item interaction}{4}{0}{2}
+\beamer@sectionintoc {3}{User Interfaces}{5}{0}{3}
+\beamer@subsectionintoc {3}{1}{Heads Up Display}{5}{0}{3}
+\beamer@subsectionintoc {3}{2}{Item Menu}{6}{0}{3}
+\beamer@subsectionintoc {3}{3}{Main Menu}{7}{0}{3}

@@ -13,232 +13,55 @@
 \date{\today}
 \maketitle
 \tableofcontents
-\section{Diagrama de clases de dise\~no}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Usuario\\
-	\hline
-		-equipoID:integer\\
-		+getTeam:integer\\
-		+cambiarEquipo(equipoID)\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Jugador}
-	\label{tab:jugador}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Jugador\\
-	\hline
-		-id\\
-		-hp:integer\\
-		-armorClass:integer\\
-		+getPosition:Coordenada\\
-		+move\\
-		+hit(dmg)\\
-		+heal(dmg)\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Jugador}
-	\label{tab:jugador}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Robot\\
-	\hline
-		+attack(playerID)\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Robot}
-	\label{tab:robot}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Coordenada\\
-	\hline
-		-x:float\\
-		-y:float\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Coordenada}
-	\label{tab:Coordenada}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Partido\\
-	\hline
-		-gameMasterID:integer\\
-		+registrar(jugadorID)\\
-		+definirZonaJuego(esquina, ancho, alto)\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Partido}
-	\label{tab:Partido}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		TipoRobot\\
-	\hline
-		-tipo:integer\\
-		-robotID:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase TipoRobot}
-	\label{tab:TipoRobot}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Registro\\
-	\hline
-		-created-at:datetime\\
-		-playerID:integer\\
-		-robot:integer\\
-		-coords:Coordenada\\
-		-details:string\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Registro}
-	\label{tab:Registro}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Inventario\\
-	\hline
-		-id: integer\\
-		-jugadorID: integer\\
-		+public\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Inventario}
-	\label{tab:Inventario}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		ItemInventario\\
-	\hline
-		-itemID:integer\\
-		-inventarioID:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase ItemInventario}
-	\label{tab:ItemInventario}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-		-tipo:integer\\
-		-carga:integer\\
-		+useItem(JugadorID)\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Equipos\\
-	\hline
-		-id:integer\\
-		-nombre:string\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
-\begin{table}
-	\centering
-	\begin{tabular}{|l|}
-	\hline
-		Items\\
-	\hline
-		-id:integer\\
-	  \hline
-	\end{tabular}
-	\caption{Clase Items}
-	\label{tab:Items}
-\end{table}
+\section{Class diagram}
+Jugador is a bridge between Usuario and Robot.\\
+Game area is defined by setting an upper-left corner, a height and a width.\\
+Events between players and robots are logged, recording coordinates, timestamp, and details of the interaction.\\
+Users can set up teams and share items.\\
+Users can check their scores at any time, and compare against the top players on a leaderboard.
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{clases}
+\caption{Class Diagram}
+\end{figure}
+\section{Interaction Diagrams}
+\subsection{User/Robot interaction}
+User can use an Item to attack a robot. The damage inflicted will depend on a calculation considering AC, range, and item damage.
+User can use Items to heal, or improve his AC.
+Robots can attack Users. If the user's HP drops below 0, he is removed from the map.
+If the robot is disabled, the user earns points depending on robot type.
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{user-robot}
+\caption{User/Robot interaction}
+\end{figure}
+\subsection{User/Item interaction}
+Users can collect, share, and use items they find on the map. When an user picks up an item, it is stored in his inventory. Depending on the type of item, the user can heal himself, load a weapon with ammo, improve his Armor Class, or use the item to attack a robot. Items have a charge level that shows number of times the item can be used. Users can share items with their teams if they choose to do so, via the Item menu.
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{item}
+\caption{User/Item interaction}
+\end{figure}
+\section{User Interfaces}
+This is the main game screen. The device's camera is activated, and an overlay is shown over the picture, detailing HUD data (HP, armor, remaining ammo on weapon), a button to access the item menu, and a map showing robots, players and items. Robots are shown in an augmented reality view. The user can access a main menu via a physical button.
+\subsection{Heads Up Display}
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{hud}
+\caption{Heads Up Display}
+\end{figure}
+\subsection{Item Menu}
+The player can use this menu to check his inventory, and select an item for use. Information regarding the item, such as effects and current charge, will be shown on the screen. The user can cycle through his items, and items shared by his team.
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{item-menu}
+\caption{Item Menu}
+\end{figure}
+\subsection{Main Menu}
+This menu lets the user configure his player information, such as name and team. A player can surrender at any time by selecting the "Leave Game" option. Players can check their scores, and compare against a leaderboard. There is an option to report abuse or game issues to a Game Master.
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=0.5]{main-menu}
+\caption{Main Menu}
+\end{figure}
 \end{document}
